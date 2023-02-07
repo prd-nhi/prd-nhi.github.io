@@ -1,5 +1,11 @@
-<script type='text/javascript'>
-    (function(o,l) {
+(() => {
+d = document.createElement('div')
+d.innerText = '2023-36048';
+d.className = 'job_req_id'
+document.body.appendChild(d);
+s = document.createElement('script');
+s.textContent = `
+  (function(o,l) {
         window.oliviaChatData = window.oliviaChatData || [];
         window.oliviaChatBaseUrl = o;
         window.oliviaChatData.push(['setKey', l]);
@@ -10,5 +16,6 @@
         apply.src = 'https://d25zu39ynyitwy.cloudfront.net/static/site/js/widget-client.js';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(apply, s);
-    })('https://stg.paradox.ai', 'fsfhonopgotwdugoxtta');
-</script>
+    })('https://dev.paradox.ai', 'ctssaxemdzwltsjovscs');`;
+document.body.appendChild(s)
+})();
